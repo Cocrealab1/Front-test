@@ -33,11 +33,51 @@
 #btn2:hover {
     color: white;
 }
+#btn3 {
+    width:150px;
+    height:150px;
+    border-radius: 1px;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 8px 2px;
+    cursor: pointer;
+    margin-left: 1cm;
+}
+#btn3:hover {
+    color: blue;
+}
+
+
+#btn4 {
+    width:150px;
+    height:150px;
+    border-radius: 1px;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 1cm;
+}
+#btn4:hover {
+    color: blue;
+}
 #tx {
     width: 350px;
     margin-left: 1cm;
 }
+#tx1 {
+    width: 350px;
+    margin-left: 1cm;
+}
 #txa {
+    
+    margin-left: 1cm;
+}
+#textarea {
     
     margin-left: 1cm;
 }
