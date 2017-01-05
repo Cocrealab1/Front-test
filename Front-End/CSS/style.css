@@ -33,6 +33,24 @@
 #btn2:hover {
     color: white;
 }
+#btne {
+    width:150px;
+    height:50px;
+    background-color:green;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 1cm;
+}
+#btne:hover {
+    color: white;
+}
 #btn3 {
     width:150px;
     height:150px;
