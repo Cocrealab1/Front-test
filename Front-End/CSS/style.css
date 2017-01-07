@@ -15,7 +15,6 @@
     color: white;
 }
 
-
 #btn2 {
     width:150px;
     height:150px;
@@ -91,16 +90,12 @@
     width: 250px;
     margin-left: 1cm;
 }
-#txa {
-    
-    margin-left: 1cm;
-}
-#textarea {
-    
+#txa, #textarea {
+
     margin-left: 1cm;
 }
 
 h1,h3 {
-    
+
     margin-left: 1cm;
 }

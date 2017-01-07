@@ -1,140 +1,128 @@
 <!DOCTYPE html>
 <html>
-<head>
-   
-	<title>Front-end</title>
-        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 
+<head>
+    <title>Front-end</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/btn1.js"></script>
-    <script src="js/btn2.js"></script>
-	<script src="js/funcion_hover.js"></script>
-	<script src="js/Funcion hide_show y FadeOut.js"></script>
-	
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/efectos.js"></script>
 </head>
+
 <body>
-<div class="container">
-<br>
+    <div class="container">
+        <br>
 
+        <h1>Diego Alejandro Forero</h1>
+        <h3>Practica Front-End</h3>
 
-
-<h1>Diego Alejandro Forero</h1>
-<h3>Practica Front-End</h3>
-
-
-<hr>
-        <div class="row"> 
-        
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1"> 
-             
-                <input  id="btn1" type='submit' value='BOTON1' style='background:url("img/1.jpg") left center no-repeat;padding-left:20px;' />
-             <div id="tx"> 
-              	<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris .</h4>
-             </div> 
-                
-                <textarea id="txa" rows="10" cols="30"></textarea>
-                <br>
-                <input  id="btne" type='submit' value='Enviar' >
-                 
-          </div>
-         
+        <hr>
+        <div class="row">
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-                 
-                <input  id="btn2" type='submit' value='BOTON2' style='background:url("img/ha.jpg") left center no-repeat;padding-left:20px;' /> 
-             <div id="tx"> 
-              	<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <input id="btn1" type='submit' value='BOTON1' style='background:url("img/1.jpg") left center no-repeat;padding-left:20px;' />
+                <div id="tx">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris .</h4>
-            </div> 
-                
+                </div>
+
                 <textarea id="txa" rows="10" cols="30"></textarea>
                 <br>
-              <input  id="btne" type='submit' value='Enviar' >
-                
+                <input id="btne" type='submit' value='Enviar'>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+                <input id="btn2" type='submit' value='BOTON2' style='background:url("img/ha.jpg") left center no-repeat;padding-left:20px;' />
+                <div id="tx">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris .</h4>
                 </div>
-         
+
+                <textarea id="txa" rows="10" cols="30"></textarea>
+                <br>
+                <input id="btne" type='submit' value='Enviar'>
+            </div>
+
         </div>
-                 
-          <br>
-          <br>
-                <hr>
+        <br>
+        <br>
+        <hr>
+        <!-- Botones con Hover Ernesto Ballen -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+                <button><img src="img/boton.png"></button>
+                <p>Boton 1 Funcion hover para cambiar color fondo de la imagen</p>
+                <form action="" id="boton1">
+                    <table border="0" width="100%">
+                        <tr>
+                            <td>Comentarios: </td>
+                            <td>
+                                <TEXTAREA required="required" NAME="comentario" id="comentario" ROWS="2" COLS="25"></TEXTAREA>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Enviar" class="btn btn-primary" />
+                </form>
+            </div>
 
-
-<!-- Botones con Hover Ernesto Ballen -->
-	<div class="row">
-	<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-	<button><img src="img/boton.png"></button>
-	<p>Boton 1 Funcion hover para cambiar color fondo de la imagen</p>
-	<form action="" id="boton1">
-	<table border="0" width="100%">
-	<tr>
-	<td>Comentarios: </td>
-	<td><TEXTAREA required="required" NAME="comentario" id="comentario" ROWS="2" COLS="25"></TEXTAREA></td>
-	</tr>
-	</table>
-	<input type="submit" value="Enviar" class="btn btn-primary"/>
-	</form>
-	</div>
-
-		
-	<div class="col-xs-12 col-sm-6 col-md-4  col-md-offset-1">
-	<button>
+            <div class="col-xs-12 col-sm-6 col-md-4  col-md-offset-1">
+                <button>
 	<img src="img/boton1.jpg" alt="logo" id="logo" height="150px"></button>
-	<p>Boton 2 Funcion animate jquery para modificar tamaño imagen</p>
-	<form action="" id="boton2">
-	<table border="0" width="100%">
-	<tr>
-	<td>Comentarios: </td>
-	<td><TEXTAREA required="required" NAME="comentario1" id="comentario1" ROWS="2" COLS="25"></TEXTAREA></td>
-	</tr>
-	</table>
-	<input type="submit" value="Enviar" class="btn btn-warning"/>
-	</form>	
-	</div>
-	</div>
-	<!-- Final codigo Botones con Hover Ernesto Ballen -->
+                <p>Boton 2 Funcion animate jquery para modificar tamaño imagen</p>
+                <form action="" id="boton2">
+                    <table border="0" width="100%">
+                        <tr>
+                            <td>Comentarios: </td>
+                            <td>
+                                <TEXTAREA required="required" NAME="comentario1" id="comentario1" ROWS="2" COLS="25"></TEXTAREA>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Enviar" class="btn btn-warning" />
+                </form>
+            </div>
+        </div>
+        <!-- Final codigo Botones con Hover Ernesto Ballen -->
 
-	<!--Botones Nicolas Cardenas-->
-	<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-		<br />
-		<button><img src="img/boton2.jpg" alt="Boton 2" id="logo3" height="150px"></button>
-		<p>Boton 3 Funcion hide/show para ocultar y mostrar la imagen</p>
-		<form action="" id="boton3">
-			<table border="0" width="100%">
-				<tr>
-					<td>Comentarios: </td>
-					<td><textarea required="required" name="comentario1" id="comentario1" rows="2" cols="25"></textarea></td>
-				</tr>
-			</table>
-			<input type="submit" value="Enviar" class="btn btn-info"/>
-		</form>
-	</div>
+        <!--Botones Nicolas Cardenas-->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+            <br />
+            <button><img src="img/boton2.jpg" alt="Boton 2" id="logo3" height="150px"></button>
+            <p>Boton 3 Funcion hide/show para ocultar y mostrar la imagen</p>
+            <form action="" id="boton3">
+                <table border="0" width="100%">
+                    <tr>
+                        <td>Comentarios: </td>
+                        <td><textarea required="required" name="comentario1" id="comentario1" rows="2" cols="25"></textarea></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Enviar" class="btn btn-info" />
+            </form>
+        </div>
 
-	<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-		<br />
-		<button><img src="img/boton3.jpg" alt="Boton 3" id="logo4" height="150px"></button>
-		<p>Boton 4 Funcion fadeOut/fadeIn para dar efecto de desvanecimiento a la imagen</p>
-		<form action="" id="boton4">
-			<table border="0" width="100%">
-				<tr>
-					<td>Comentarios: </td>
-					<td><TEXTAREA required="required" NAME="comentario1" id="comentario1" ROWS="2" COLS="25"></TEXTAREA></td>
-				</tr>
-			</table>
-			<input type="submit" value="Enviar" class="btn btn-danger"/>
-		</form>
-	</div>
-			
-	</div>
-	
-</div>
-</div>
-				
+        <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+            <br />
+            <button><img src="img/boton3.jpg" alt="Boton 3" id="logo4" height="150px"></button>
+            <p>Boton 4 Funcion fadeOut/fadeIn para dar efecto de desvanecimiento a la imagen</p>
+            <form action="" id="boton4">
+                <table border="0" width="100%">
+                    <tr>
+                        <td>Comentarios: </td>
+                        <td>
+                            <TEXTAREA required="required" NAME="comentario1" id="comentario1" ROWS="2" COLS="25"></TEXTAREA>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="Enviar" class="btn btn-danger" />
+            </form>
+        </div>
+
+    </div>
+    </div>
+    </div>
 </body>
 </html>
